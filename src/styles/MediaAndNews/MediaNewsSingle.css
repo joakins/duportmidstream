@@ -1,0 +1,51 @@
+.text-secondary {
+    color: #9CA1A3 !important;
+}
+
+a.text-secondary:hover {
+    color: #878d8f !important;
+}
+
+.text-primary {
+    color: #005ED1 !important;
+}
+
+a.text-primary:hover {
+    color: #004ca8 !important;
+}
+
+.text-dark {
+    color: #353535 !important;
+}
+
+a.text-dark:hover {
+    color: #212121 !important;
+}
+
+.mainRow {
+    max-width: 700px;
+    top: -80px;
+}
+
+.contentBody {
+    line-height: 2;
+}
+
+.avatar {
+    width: 50px;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .btnLoadMore {
+        width: 85%;
+        margin-left: 2rem;
+    }
+}

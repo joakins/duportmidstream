@@ -1,0 +1,35 @@
+.bgHeroHalf {
+    background-image: url("../../../public/img/contactHeaderBg.png");
+    height: 75vh;
+    background-size: cover;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+}
+
+.contactTitle {
+    font: var(--unnamed-font-style-normal) normal medium 72px/var(--unnamed-line-spacing-84) Archivo;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal medium 56px/80px Archivo;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFF3;
+    margin-top: -1.5em;
+}
+
+.title-heading {
+    line-height: 26px;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+    .bgHeroHalf {
+        padding: 150px 0;
+        height: auto;
+    }
+}

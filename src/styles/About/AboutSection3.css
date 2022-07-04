@@ -1,0 +1,71 @@
+.aboutSection3 {
+    /* height: 700px; */
+    background: #fff 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.aboutSection3Header {
+    font: var(--unnamed-font-style-normal) normal medium 64px/106px Archivo;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal medium 40px/40px Archivo;
+    letter-spacing: 0px;
+    color: #141414;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.aboutSection3-Img {
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    margin-left: -11px;
+    margin-right: -11px;
+}
+
+.aboutSection3-row {
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 10px 10px 10px 10px;
+}
+
+.homeSection2-Title {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 24px/var(--unnamed-line-spacing-34) Archivo;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--grey-scale-bg-colour);
+    text-align: left;
+    font: normal normal bold 24px/34px Archivo;
+    opacity: 1;
+    font-weight: 500;
+    line-height: 32px;
+    color: #141414;
+}
+
+.aboutSection3-Paragraph {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-16)/26px var(--unnamed-font-family-nunito-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--grey-scale-bg-colour);
+    text-align: left;
+    font: normal normal 600 16px/26px Nunito Sans;
+    letter-spacing: 0px;
+    color: #19181E;
+    opacity: 1;
+    padding-bottom: 1em;
+    /* padding-left: 0.5em; */
+}
+
+@media (max-width: 767px) {
+    .teamImg {
+        padding: 60px 0 0 5rem;
+        position: relative !important;
+    }
+    .homeSection2-Title,
+    .aboutSection3-Img,
+    .aboutSection3-Paragraph {
+        padding: 0 0 0 2rem;
+        position: relative !important;
+    }
+}

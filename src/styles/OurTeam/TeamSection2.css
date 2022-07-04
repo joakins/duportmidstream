@@ -1,0 +1,105 @@
+.teamSec2 {
+    font-family: "Archivo", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+    background: #191919;
+    opacity: 1;
+    padding-bottom: 90em;
+}
+
+.team4 h1,
+.team4 h2,
+.team4 h3,
+.team4 h4,
+.team4 h5,
+.team4 h6 {
+    color: #3e4555;
+}
+
+.team4 .font-weight-medium {
+    font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+    font-size: 13px;
+}
+
+.team4 ul li a {
+    color: #8d97ad;
+    padding-right: 15px;
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+    -webkit-transform: translate3d(0px, -5px, 0px);
+    transform: translate3d(0px, -5px, 0px);
+    color: #316ce8;
+}
+
+.ourTeamSection2Header {
+    font: var(--unnamed-font-style-normal) normal medium 64px/106px Archivo;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal medium 40px/40px Archivo;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.teamName2 {
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFF3;
+    margin-top: 0.5em;
+}
+
+.teamImg {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.teamPosition2 {
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #808080;
+}
+
+@media (max-width: 767px) {
+    .teamImg {
+        padding: 60px 0 0 5rem;
+        position: relative !important;
+    }
+    .teamName2,
+    .teamPosition2 {
+        padding: 0 4rem 0 0;
+        position: relative !important;
+    }
+}

@@ -1,0 +1,61 @@
+.aboutSection4 {
+    /* height: 700px; */
+    background: #210C00 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.aboutHeaderSection4 {
+    font: var(--unnamed-font-style-normal) normal medium 64px/106px Archivo;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal medium 40px/40px Archivo;
+    letter-spacing: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.aboutHeaderSmallSection4 {
+    font: var(--unnamed-font-style-normal) normal medium 30px/70px Archivo;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal medium 40px/40px Archivo;
+    letter-spacing: 0px;
+    color: #E5BD05;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.aboutSection4-Paragraph {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-16)/26px var(--unnamed-font-family-Urbanist);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--grey-scale-bg-colour);
+    text-align: center;
+    font: normal normal 600 16px/26px;
+    font-family: 'Urbanist';
+    letter-spacing: 0px;
+    color: #fff;
+    opacity: 1;
+    padding-bottom: 3em;
+}
+
+.aboutSection4-row {
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 500;
+    margin: 10px 10px 10px 10px;
+}
+
+.aboutSection4-row:hover {
+    border: 1.5px solid rgba(255, 255, 255);
+}

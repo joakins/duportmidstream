@@ -1,0 +1,85 @@
+.contactSection1 {
+    background: #fff 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.myContainer {
+    border-radius: 5px;
+    background: #FDFFFC;
+    padding: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: -13em;
+    margin-bottom: 2rem;
+}
+
+.contactIcons {
+    /* margin: 30px 380px 20px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 0.5em;
+}
+
+.social-icon li a {
+    position: relative;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    margin: 0 5px;
+    line-height: 33px !important;
+    text-align: center;
+    color: #535353;
+}
+
+.contactAddressHeding {
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #141414;
+    margin-top: 0.5em;
+}
+
+.contactAddressSubHeading {
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #808080;
+}
+
+.contactBtn {
+    background: #E5BD05;
+    border-radius: 4px;
+}
+
+.textBetween {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.textBetween span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .myContainer .textBetween {
+        width: 85%;
+        margin-left: 2rem;
+    }
+    .social-icon {
+        padding-bottom: 1rem;
+    }
+}

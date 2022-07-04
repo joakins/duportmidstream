@@ -1,0 +1,38 @@
+.aboutTwoSection {
+    /* height: 700px; */
+    background: #fff 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.aboutSection2 {
+    background-image: url("../../../public/img/aboutImg1.png");
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+}
+
+.aboutSectionTwoHeader {
+    font: var(--unnamed-font-style-normal) normal medium 64px/106px Archivo;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal medium 40px/40px Archivo;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+    .aboutSection2 {
+        padding: 150px 0;
+        height: auto;
+    }
+}

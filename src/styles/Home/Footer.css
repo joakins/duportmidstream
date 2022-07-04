@@ -1,0 +1,143 @@
+.footer {
+    background-color: #000000 !important;
+}
+
+.footer5side-block {
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    margin: -7rem 0 0 52rem;
+    /* margin-top: -6rem; */
+    /* margin-bottom: 3rem; */
+}
+
+.social-icon li a {
+    position: relative;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    margin: 0 5px;
+    line-height: 33px !important;
+    text-align: center;
+    color: #535353;
+}
+
+.social-icon li a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.social-icon li a i {
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.social-icon li a:hover i {
+    color: #ffffff;
+}
+
+.social-icon li a:hover:before {
+    border-color: #32cfaa !important;
+    background: #32cfaa;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.social-icon.social li a {
+    color: #adb5bd;
+}
+
+.social-icon.social li a::before {
+    border-color: #6c757d;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px
+}
+
+.socialText {
+    color: #E5BD05;
+}
+
+.socialAddr {
+    color: #fff;
+    text-align: right;
+}
+
+.footer {
+    position: relative;
+    padding-left: -5em;
+}
+
+.footer .footer-logo {
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #ffffff;
+    padding: 3px 5px;
+}
+
+.footer .footer-head {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.footer .footer-list a {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.footer .footer-list a:hover {
+    color: #EFB01E;
+}
+
+.footer .tagcloud a {
+    background: #495057;
+    border-radius: 2px;
+    color: #adb5bd;
+    display: inline-block;
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin: 5px 10px 5px 0;
+    padding: 8px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.footer .tagcloud a:hover {
+    background: #EFB01E;
+    color: #ffffff;
+}
+
+.footer .text-foot {
+    color: #adb5bd;
+}
+
+.footer.footer-bar {
+    border-top: 1px solid #495057;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+    .footer.footer-bar {
+        text-align: center;
+    }
+}
